@@ -1,17 +1,17 @@
-# Emissões de Gases de Efeito Estufa no Brasil 🌎
+# Emissões de Gases de Efeito Estufa no Brasil 
 
 Análise exploratória das emissões de gases de efeito estufa dos estados brasileiros (1970–2021) usando **pandas**, com foco em **seleção, filtragem e agrupamento de dados**.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pedrosampaiom2007-gif/emissoes-gases/blob/main/pandas_selecao_e_agrupamento.ipynb)
 
-## 📊 Fontes de dados
+##  Fontes de dados
 
 | Base | Descrição | Fonte |
 |---|---|---|
 | `1-SEEG10_GERAL-BR_UF_2022.10.27-FINAL-SITE.xlsx` (aba `GEE Estados`) | Emissões por estado, setor, gás e ano | [SEEG – Observatório do Clima](http://seeg.eco.br/download) |
 | `POP2022_Municipios.xls` | População por município | [Censo IBGE 2022](https://www.ibge.gov.br/estatisticas/sociais/saude/22827-censo-demografico-2022.html) |
 
-## 🗂️ Etapas do notebook
+##  Etapas do notebook
 
 1. **Leitura dos dados** – `read_excel()` e `info()`.
 2. **Ajuste da base** – uso de `unique()`, máscaras booleanas (`&`, `|`), `isin()`, `loc[]` e `drop()` para manter apenas as linhas de *Emissão*.
@@ -24,7 +24,7 @@ Análise exploratória das emissões de gases de efeito estufa dos estados brasi
 
 Cada célula de código traz um comentário curto explicando o que a função do pandas faz.
 
-## ▶️ Como executar
+##  Como executar
 
 1. Abra o notebook no Google Colab (botão acima).
 2. Salve as duas planilhas no Google Drive em `MyDrive/Colab Notebooks/`.
@@ -36,7 +36,7 @@ Para rodar localmente, instale as dependências e ajuste os caminhos dos arquivo
 pip install pandas openpyxl xlrd matplotlib plotly
 ```
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - Python 3
 - pandas
